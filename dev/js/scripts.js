@@ -7,3 +7,4 @@ import { MorphSVGPlugin } from "gsap/MorphSVGPlugin";
 gsap.registerPlugin(GSDevTools, DrawSVGPlugin, MorphSVGPlugin);
 
 const mainTL = gsap.timeline();
+MorphSVGPlugin.convertToPath("#Ellipse1");
